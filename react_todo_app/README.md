@@ -35,7 +35,7 @@ Bootstrap is used for quick and responsive styling. It allows for a clean, moder
 
 1. **Clone the Repository**
     ```bash
-    git clone https://github.com/your-repository/react-php-todo.git
+    git clone https://github.com/Androide47/todoListApp.git
     ```
 
 2. **Navigate to the Project Directory and Install Dependencies**
