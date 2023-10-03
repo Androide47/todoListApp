@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+Certainly, here's the content for a README file that documents the entire project, including the last update:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+# React To-Do List with PHP Backend
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Deployment](#deployment)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Overview
 
-### `npm test`
+This project is a To-Do list application built using React for the frontend and PHP for the backend. The app allows users to add, edit, and delete tasks.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **List Tasks**: Displays all tasks retrieved from the backend.
+- **Add Task**: Add a new task to the list.
+- **Delete Task**: Remove a task from the list.
+- **Edit Task**: Edit tasks inline, saving changes directly.
+- **Task Numbering**: Each task in the list is automatically numbered.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Latest Update**
+- Added the feature to toggle the "Edit" button text to "Save" when a task is in editing mode.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Technologies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- React (Frontend)
+- PHP (Backend)
+- Axios (HTTP Client)
+- Bootstrap (UI Framework)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Justification for Bootstrap**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Bootstrap was chosen for this project for aesthetic reasons. It provides a range of pre-designed components, which not only accelerates the development process but also ensures a visually appealing, consistent design with minimal effort.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Prerequisites
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Make sure Node.js is installed on your computer.
+2. Make sure you have a PHP server running.
 
-### Code Splitting
+### Steps
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. **Clone the Repository**
+    ```bash
+    git clone <repository-link>
+    ```
 
-### Analyzing the Bundle Size
+2. **Navigate to the directory**
+    ```bash
+    cd <directory-name>
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+3. **Install Dependencies**
+    ```bash
+    npm install
+    ```
 
-### Making a Progressive Web App
+4. **Run the Development Server**
+    ```bash
+    npm start
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+To deploy this project on any computer, follow the steps below:
 
-### Deployment
+1. Extract the compressed project file.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+2. Open a terminal and navigate to the extracted project directory.
 
-### `npm run build` fails to minify
+3. Follow the installation steps mentioned above to install all dependencies and run the project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+And that's it! You should now be able to run the project locally.
+
+---
+
+For any further questions, please contact [Support](mailto:support@example.com).
+
+---
+
+By following these guidelines, anyone who has the compressed file of the project can easily install and deploy it on their computer.
